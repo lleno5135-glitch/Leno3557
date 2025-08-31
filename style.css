@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Lenophia | Digital Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>🌸 Lenophia’s Digital Portfolio 🌸</h1>
+
+    <div id="clock"></div>
+
+    <nav>
+
+      <a href="#about">About</a>
+
+      <a href="#skills">Skills</a>
+
+      <a href="#hobbies">Hobbies</a>
+
+      <a href="#records">Records</a>
+
+      <a href="#awards">Awards</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+  </header>
+
+  <!-- About Me -->
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="card">
+
+      <img src="https://i.supaimg.com/0074ffcd-78c5-4048-9911-89d56b423c11.jpg" 
+
+           alt="Lenophia" class="profile-img">
+
+      <p>Hello! I am <b>Lenophia</b>, and this is my personal digital portfolio.  
+
+      I love learning, creating, and achieving new goals. This portfolio highlights my journey, skills, and achievements.</p>
+
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="card">
+
+      <ul>
+
+        <li>Web Development (HTML, CSS, JS)</li>
+
+        <li>Programming in C++ / Python</li>
+
+        <li>Creative Writing ✍️</li>
+
+        <li>Public Speaking 🎤</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!-- Hobbies -->
+
+  <section id="hobbies">
+
+    <h2>My Hobbies</h2>
+
+    <div class="card">
+
+      <ul>
+
+        <li>Drawing & Painting 🎨</li>
+
+        <li>Listening to Music 🎶</li>
+
+        <li>Playing Badminton 🏸</li>
+
+        <li>Reading Books 📚</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!-- Records -->
+
+  <section id="records">
+
+    <h2>My Records</h2>
+
+    <div class="card">
+
+      <ul>
+
+        <li>Top scorer in academics 🏆</li>
+
+        <li>Completed multiple coding projects 💻</li>
+
+        <li>Actively participated in cultural activities 🎭</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!-- Awards -->
+
+  <section id="awards">
+
+    <h2>My Awards</h2>
+
+    <div class="card">
+
+      <ul>
+
+        <li>Best Student Award – 2023 🥇</li>
+
+        <li>State-level Science Competition Winner 🔬</li>
+
+        <li>Sports Championship Medalist 🏅</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="card">
+
+      <p>📧 Email: <a href="mailto: Lenophia@example.com">Lenophia@example.com</a></p>
+
+      <p>📱 Phone: +91 9876543210</p>
+
+      <p>🌐 LinkedIn: <a href="#">linkedin.com/in/nithyasri</a></p>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    © 2025 Lenophia | All Rights Reserved
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+
+---
+
+📌 style.css
+
+body {
+
+  margin: 0;
+
+  font-family: "Poppins", sans-serif;
+
+  background: linear-gradient(135deg, #141E30, #243B55);
+
+  color: white;
+
+  text-align: center;
+
+  scroll-behavior: smooth;
+
+}
+
+header {
+
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  position: sticky;
+
+  top: 0;
+
+  backdrop-filter: blur(5px);
+
+  z-index: 1000;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 2rem;
+
+  letter-spacing: 1px;
+
+}
+
+#clock {
+
+  font-size: 1.5rem;
+
+  margin-top: 5px;
+
+  font-weight: bold;
+
+  color: #FFD700;
+
+}
+
+nav {
+
+  margin-top: 10px;
+
+}
+
+nav a {
+
+  margin: 0 10px;
+
+  text-decoration: none;
+
+  color: #FFD700;
+
+  font-weight: bold;
+
+  transition: color 0.3s;
+
+}
+
+nav a:hover {
+
+  color: #00FFCC;
+
+}
+
+section {
+
+  padding: 60px 20px;
+
+  max-width: 900px;
+
+  margin: auto;
+
+}
+
+section h2 {
+
+  font-size: 2rem;
+
+  margin-bottom: 20px;
+
+  color: #FFD700;
+
+}
+
+.card {
+
+  background: rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+
+  margin: 15px 0;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+
+}
+
+.profile-img {
+
+  width: 180px;
+
+  height: 180px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  border: 4px solid #FFD700;
+
+  margin-bottom: 20px;
+
+}
+
+footer {
+
+  background: rgba(0, 0, 0, 0.8);
+
+  padding: 15px;
+
+  font-size: 0.9rem;
+
+}
+
+---
+
+📌 script.js
+
+function updateClock() {
+
+  let now = new Date();
+
+  let hrs = now.getHours().toString().padStart(2, "0");
+
+  let mins = now.getMinutes().toString().padStart(2, "0");
+
+  let secs = now.getSeconds().toString().padStart(2, "0");
+
+  document.getElementById("clock").innerText = hrs + ":" + mins + ":" + secs;
+
+}
+
+setInterval(updateClock, 1000);
+
+updateClock();
+
+---
